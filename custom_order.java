@@ -92,7 +92,7 @@ public class custom_order {
       System.out.println("What type of TOPPING do you want? ");
       System.out.println("Sprinkles, Cinnamon, Cocoa, Nuts");
       toppings = keyboard.nextLine();
-
+      keyboard.close();
     // TEST CODE
 
     // STEP 9 DISPLAY ORDER CONFIRMATION
